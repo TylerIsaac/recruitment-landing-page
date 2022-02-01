@@ -1,0 +1,552 @@
+@font-face {
+  font-family: FormaMedCon;
+  src: url(../Fonts/Formata-MediumCondensed.otf);
+}
+
+.wrapper-container {
+  margin: 0;
+  padding: 0;
+}
+
+.header-container {
+}
+
+.header-text {
+  color: white;
+  text-align: center;
+  padding: 15% 0;
+  text-shadow: 0px 0px 11px #000000;
+}
+
+.header-background {
+  background-image: url("https://di-uploads-pod6.dealerinspire.com/1cochran/uploads/2022/01/HeaderImage_Darkened.jpg");
+  background-repeat: none;
+  background-size: cover;
+}
+
+.header-title {
+  font-family: "Gotham Medium";
+  font-size: 5vw;
+  margin-bottom: 3%;
+}
+
+.header-sub-title {
+  font-family: FormaMedCon;
+  font-size: 3.5vw;
+}
+
+.color-change {
+  color: #eb1c2c;
+}
+
+.font-change {
+  font-family: "Gotham Black";
+}
+
+.forma-bold-con {
+  font-family: "Formata Condensed";
+  font-weight: bold;
+}
+
+.main-container {
+  display: grid;
+  grid-template-columns: 95%;
+  justify-content: center;
+}
+
+.wrapper1 {
+}
+
+.text-container1 {
+  margin-top: 5%;
+  text-align: center;
+}
+
+.title1 {
+  font-family: "Gotham Medium";
+  font-size: 4.5vw;
+}
+
+.hr1 {
+  width: 6%;
+  height: 2px;
+  margin: 2px 0 0 30%;
+  background-color: black;
+  border: 0 none;
+}
+
+.list1 {
+  text-align: start;
+  font-size: 3.5vw;
+  margin: 10px 5% 10px 5%;
+  padding: 0;
+  font-family: "Formata Condensed";
+  color: #eb1c2c;
+  font-weight: bold;
+}
+
+.lg-spacing {
+  margin: 15px 0;
+}
+
+.md-spacing {
+  margin: 5px 0;
+}
+
+.list-color {
+  color: black;
+}
+
+.list-weight-normal {
+  font-weight: normal;
+}
+
+.list-weight-light {
+  font-weight: 300;
+}
+
+.img1 {
+  display: block;
+  margin: 10px auto 0 auto;
+  width: 100%;
+}
+
+.wrapper2 {
+  display: grid;
+  grid-template-columns: 95%;
+  margin: 0px 0 10px 0;
+  padding: 20px 0 5% 0;
+  background-color: #606060;
+  color: white;
+  justify-content: center;
+}
+
+.title2 {
+  font-size: 4vw;
+  text-align: center;
+  font-family: "Gotham Medium";
+  margin-bottom: 15px;
+}
+
+.btn-group {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  padding: 0 0 5px 0;
+  justify-content: center;
+  grid-gap: 1%;
+}
+
+.btn1 {
+  display: inline-block;
+  background-color: #808080;
+  margin: 5px auto;
+  cursor: pointer;
+  font-size: 3vw;
+  font-family: "Myriad Pro";
+  font-weight: bold;
+  border: 2px solid white;
+  width: 95%;
+  text-align: center;
+  padding: 2% 0 0.5% 0;
+}
+
+.btn1:link {
+  text-decoration: none;
+  color: white;
+}
+
+.btn1:visited {
+  text-decoration: none;
+  color: white;
+}
+
+.btn1:hover {
+  text-decoration: none;
+  color: #eb1c2c;
+  background-color: white;
+}
+
+.btn1:active {
+  text-decoration: none;
+  color: white;
+}
+
+.hr2 {
+  width: 98%;
+  height: 1px;
+  background-color: #808080;
+  border: 0 none;
+}
+
+.wrapper3 {
+  display: grid;
+  grid-template-columns: auto;
+  margin: 10px 5% 10px 5%;
+}
+
+.title3 {
+  font-family: "Gotham Medium";
+  font-size: 4.5vw;
+  text-align: center;
+}
+
+.hr3 {
+  width: 6%;
+  height: 2px;
+  margin: 2px 0 0 8%;
+  background-color: black;
+  border: 0 none;
+}
+
+.text3 {
+  font-size: 3.3vw;
+  font-family: "Formata Condensed";
+  font-weight: 300;
+  margin: 10px 0 10px 0;
+}
+
+.wrapper4 {
+}
+
+.img-text-wrapper1 {
+  background-color: #e6e7e8;
+}
+
+text-wrapper1 {
+}
+
+.title4 {
+  font-family: "Gotham Medium";
+  font-size: 4.5vw;
+  text-align: center;
+  padding-top: 5%;
+}
+
+.hr4 {
+  width: 6%;
+  height: 2px;
+  margin: 2px 0 0 31.5%;
+  background-color: black;
+  border: 0 none;
+}
+
+.list2 {
+  font-size: 3.5vw;
+  margin: 10px 10% 10px 10%;
+  padding: 0;
+  font-family: "Formata Condensed";
+  color: #eb1c2c;
+  font-weight: bold;
+}
+
+.img2-wrapper {
+}
+
+.img2 {
+  display: block;
+  margin: 10px auto;
+  width: 100%;
+}
+
+.img-text-wrapper2 {
+  background-color: white;
+}
+
+.text-wrapper2 {
+}
+
+.title5 {
+  font-family: "Gotham Medium";
+  font-size: 4.5vw;
+  text-align: center;
+  padding-top: 5%;
+}
+
+.hr5 {
+  width: 6%;
+  height: 2px;
+  margin: 2px 0 0 26.5%;
+  background-color: black;
+  border: 0 none;
+}
+
+.list3 {
+  font-size: 3.5vw;
+  margin: 10px 10% 10px 10%;
+  padding: 0;
+  font-family: "Formata Condensed";
+  color: #eb1c2c;
+  font-weight: bold;
+}
+
+.img3-wrapper {
+}
+
+.img3 {
+  display: block;
+  margin: 10px auto 0 auto;
+  width: 100%;
+}
+
+@media only screen and (min-width: 768px) {
+  .header-title {
+    font-size: 4.5vw;
+  }
+
+  .header-sub-title {
+    font-family: FormaMedCon;
+    font-size: 3vw;
+  }
+
+  .title1 {
+    font-size: 4vw;
+    margin: 50px 0 0 0;
+  }
+
+  .hr1 {
+    width: 5.25%;
+    height: 4px;
+    margin: 2px 0 0 32.75%;
+  }
+
+  .list1 {
+    font-size: 3vw;
+    margin: 10px 5% 10px 5%;
+    padding: 0;
+    font-family: "Formata Condensed";
+    color: #eb1c2c;
+    font-weight: bold;
+  }
+
+  .lg-spacing {
+    margin: 30px 0;
+  }
+
+  .title2 {
+    font-size: 3.5vw;
+    margin: 50px 0 35px 0;
+  }
+
+  .btn-group {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    padding: 0 0 5px 0;
+    justify-content: space-between;
+    grid-gap: 5px;
+    margin: 15px 0;
+  }
+
+  .btn1 {
+    font-size: 2.25vw;
+    display: inline-block;
+    cursor: pointer;
+    border: 2px solid white;
+    width: 75%;
+    text-align: center;
+    padding: 3% 25px 1.5% 25px;
+  }
+
+  .title3 {
+    font-size: 4vw;
+    margin: 25px 0 0 0;
+  }
+
+  .hr3 {
+    width: 6.25%;
+    height: 4px;
+    margin: 2px 0 0 13.25%;
+  }
+
+  .text3 {
+    font-size: 2.5vw;
+    margin: 15px 0 25px 0;
+  }
+  .title4 {
+    font-size: 4vw;
+  }
+
+  .hr4 {
+    width: 5.75%;
+    height: 4px;
+    margin: 2px 0 0 34%;
+  }
+
+  .list2 {
+    font-size: 2.5vw;
+    margin: 25px 20%;
+  }
+
+  .title5 {
+    font-size: 4vw;
+  }
+
+  .hr5 {
+    height: 4px;
+    margin: 2px 0 0 29.5%;
+  }
+
+  .list3 {
+    font-size: 2.5vw;
+    margin: 25px 20%;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .wrapper1 {
+    display: grid;
+    grid-template-columns: 50% 50%;
+  }
+
+  .item-order {
+    order: 2;
+  }
+
+  .text-container1 {
+    margin: 0% 0px 0 50px;
+    text-align: start;
+  }
+
+  .title1 {
+    font-family: "Gotham Medium";
+    font-size: 3vw;
+    margin-top: 22px;
+  }
+
+  .hr1 {
+    width: 8%;
+    height: 4px;
+    margin: 5px 0 0 0.5%;
+  }
+
+  .list1 {
+    font-size: 2.5vw;
+    margin: 0px 5% 10px 5%;
+  }
+
+  .lg-spacing {
+    margin: 20px 0;
+  }
+
+  .img1 {
+    margin: 0px auto 0 auto;
+  }
+
+  .title2 {
+    font-size: 3.5vw;
+    text-align: center;
+    font-family: "Gotham Medium";
+    margin-bottom: 15px;
+  }
+
+  .btn-group {
+    display: grid;
+    grid-template-columns: 33.33% 33.33% 33.33%;
+    padding: 0 0 5px 0;
+    justify-content: center;
+    grid-gap: 1%;
+  }
+
+  .btn1 {
+    display: inline-block;
+    margin: 20px auto;
+    cursor: pointer;
+    font-size: 2vw;
+    border: 5px solid white;
+    width: 95%;
+    text-align: center;
+    padding: 4% 0 2.5% 0;
+  }
+
+  .hide-item {
+    visibility: hidden;
+  }
+
+  .hr2 {
+    height: 2px;
+  }
+
+  .title3 {
+    text-align: start;
+    font-size: 3vw;
+  }
+
+  .hr3 {
+    width: 4.5%;
+    height: 4px;
+    margin: 5px 0 0 0%;
+  }
+
+  .text3 {
+    font-size: 2vw;
+    margin: 25px 0 100px 0;
+  }
+
+  .img-text-wrapper1 {
+    display: grid;
+    grid-template-columns: 50% 50%;
+  }
+
+  .title4 {
+    font-family: "Gotham Medium";
+    font-size: 3vw;
+    text-align: start;
+    padding-top: 0;
+    margin-left: -15px;
+  }
+
+  .hr4 {
+    width: 9%;
+    height: 4px;
+    margin: 5px 0 0 -3.5%;
+  }
+
+  .text-wrapper1 {
+    margin: 15px 10px 0 50px;
+  }
+
+  .list2 {
+    font-size: 1.5vw;
+    margin: 20px 0 10px 0;
+    padding: 0;
+    font-family: "Formata Condensed";
+    color: #eb1c2c;
+    font-weight: bold;
+  }
+
+  .img2 {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+  }
+
+  .img-text-wrapper2 {
+    display: grid;
+    grid-template-columns: 50% 50%;
+  }
+
+  .text-wrapper2 {
+    text-align: start;
+    margin: 15px 0 0 20px;
+  }
+
+  .title5 {
+    font-family: "Gotham Medium";
+    font-size: 3vw;
+    text-align: start;
+    padding-top: 0;
+  }
+
+  .hr5 {
+    width: 6%;
+    height: 4px;
+    margin: 2px 0 0 0;
+  }
+  .list3 {
+    font-size: 1.5vw;
+    margin: 10px 0 0 20px;
+  }
+
+  .img3 {
+    margin: 0 auto 0 auto;
+  }
+}
