@@ -31,7 +31,9 @@
 }
 
 .header-sub-title {
-  font-family: FormaMedCon;
+/*  font-family: FormaMedCon; */
+  font-family: 'Formata Condensed';
+  font-weight: 500;
   font-size: 3.5vw;
 }
 
@@ -137,6 +139,7 @@
 }
 
 .btn1 {
+  color: white;
   display: inline-block;
   background-color: #808080;
   margin: 5px auto;
@@ -167,6 +170,27 @@
 }
 
 .btn1:active {
+  text-decoration: none;
+  color: white;
+}
+
+a:link {
+  text-decoration: none;
+  color: white;
+}
+
+a:visited {
+  text-decoration: none;
+  color: white;
+}
+
+a:hover {
+  text-decoration: none;
+  color: #eb1c2c;
+  background-color: white;
+}
+
+a:active {
   text-decoration: none;
   color: white;
 }
@@ -294,7 +318,6 @@ text-wrapper1 {
   }
 
   .header-sub-title {
-    font-family: FormaMedCon;
     font-size: 3vw;
   }
 
