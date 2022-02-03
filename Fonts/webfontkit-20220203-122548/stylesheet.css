@@ -40,8 +40,8 @@
 
 @font-face {
     font-family: 'FormaMedCon';
-    src: url('formamedcon-webfont.woff2') format('woff2'),
-         url('formamedcon-webfont.woff') format('woff');
+    src: url('https://github.com/TylerIsaac/recruitment-landing-page/blob/main/Fonts/webfontkit-20220203-122548/FormaMedCon.woff2') format('woff2'),
+         url('https://github.com/TylerIsaac/recruitment-landing-page/blob/main/Fonts/webfontkit-20220203-122548/FormaMedCon.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
